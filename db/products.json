@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "name": "mouse pad",
+      "description": "mouse pad neoprene",
+      "price": "550",
+      "inStock": true,
+      "id": 4
+    },
+    {
+      "name": "laptop lenovo",
+      "description": "laptop gaming",
+      "price": "2500",
+      "inStock": true,
+      "id": 5
+    },
+    {
+      "name": "keyboard",
+      "description": "keyboard gaming",
+      "price": "800",
+      "inStock": true,
+      "id": 6
+    }
+  ]
+}
