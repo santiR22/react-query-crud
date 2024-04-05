@@ -10,13 +10,13 @@ export const getProducts = async () => {
 };
 
 export const createProduct = (product) => {
-  productsAPI.post("/", product);
+  return productsAPI.post("/", product);
 };
 
 export const deleteProduct = (id) => {
-  productsAPI.delete(`/${id}`);
+  return productsAPI.delete(`/${id}`);
 };
 
 export const updateProduct = (product) => {
-  productsAPI.put(`/${product.id}`, product);
+  return productsAPI.put(`/${product.id}`, product);
 };
